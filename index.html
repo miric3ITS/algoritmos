@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa fime</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="puntos.js" defer></script> 
+
+</head>
+<body>
+    
+    <div class="container">
+       <section class="tools-board">
+            <div class="row">
+                <label class="title" class="title">Menu 1</label>
+                <ul class="options"> 
+                        <li class="option"> 
+                        <img src="iconos/circuloo.svg" alt="" srcset="">
+                        <span>Numero 1</span>
+                        </li> 
+                        <li class="option"> 
+                        <img src="iconos/circuloo.svg" alt="" srcset="">
+                        <span>Numero 2</span>
+                         </li> 
+
+                </ul>
+            </div>
+
+            <div class="row">
+                <label class="title" class="title">Menu 2</label>
+                <ul class="options"> 
+                        <li class="option tool" id="brush"> 
+                        <img src="iconos/circuloo.svg" alt="" srcset="">
+                        <span> Nuevo punto  </span>
+                        </li> 
+                        <li class="option tool" id="eraser"> 
+                        <img src="iconos/circuloo.svg" alt="" srcset="">
+                        <span> Borrar punto </span>
+                         </li> 
+
+                </ul>
+            </div>
+
+            <div class="row colors">
+                <label class="title"> Tipo </label>
+            
+        <ul class="options">
+            <li class="option"></li>
+            <li class="option selected"></li>
+            <li class="option"></li>
+            <li class="option"></li>
+         </ul>
+            </div>
+
+
+            <div class="row buttons">
+                <button class="clear-canvas"> Ver mapa </button>
+                <button class="guardar"> Guardar </button>
+            </div>
+            </section>
+      
+
+          <section class="drawing-board">
+                                             <canvas id="lienzo" width="700" height="1068">Su navegador no soporta canvas </canvas>
+          </section>
+        
+          
+        </section>                                
+    </div>
+
+
+
+
+</body>
+</html>
+
